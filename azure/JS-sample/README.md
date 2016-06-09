@@ -1,4 +1,4 @@
-#This program can achieve basic communication between device and Azure IoT hub
+##This program can achieve basic communication between device and Azure IoT hub
 
 This program is using Node.js and running on Raspberry Pi
 
