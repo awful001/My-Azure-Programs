@@ -2,6 +2,11 @@
 
 This program is using Node.js and running on Raspberry Pi
 
+Require **socket.io**
+```
+$ npm install socket.io
+```
+
 Open **test.js**, navigate to
 ```
 var connectionString = '[Your connection string]';
