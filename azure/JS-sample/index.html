@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>azure test</title>
+		<script src = '/socket.io/socket.io.js'></script>
+		<script>
+			var socket = io.connect();
+			socket.on('message', function (data) {
+				document.getElementById('display').innerHTML = data;
+			});
+			
+			function sendEvent() {
+				var message = document.getElementById('inputBox').value;
+				if (message == '') {
+					alert('Key in the message!');
+				} else {
+					socket.emit('button', message);
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+	<h2>Send and Receive test</h1>
+	<hr>
+	<p id='display'></p>
+	<p>
+		<input type='text' id='inputBox'>
+		<button type='button' id='submitButton' onclick='sendEvent()'>Send</button>
+	</p>
+	</body>
+</html>
