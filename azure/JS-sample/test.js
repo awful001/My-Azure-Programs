@@ -7,7 +7,7 @@ var events = require('events');
 var port = 8080;
 
 var eventEmitter = new events.EventEmitter();
-var connectionString = 'HostName=myPiIoTHub.azure-devices.net;DeviceId=myPi;SharedAccessKey=X5uJf/+SYGPEA1Mlen5AwlclUBGr1Gnn1dXIZISZtCM=';
+var connectionString = '[Your Connection String]';
 
 //Create a device client
 var client = clientFromConnectionString(connectionString);
