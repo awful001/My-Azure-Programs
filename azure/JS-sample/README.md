@@ -22,3 +22,5 @@ At last go to
 ```
 127.0.0.1:8080
 ```
+
+**To observe and send message, please use [Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/readme.md)**
