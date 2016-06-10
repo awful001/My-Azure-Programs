@@ -21,3 +21,13 @@ $ npm install azure-iot-device-http
 ```
 $ npm install azure-iothub
 ```
+
+- **amqp10**
+```
+$ npm install amqp10
+```
+
+- **bluebird**
+```
+$ npm install bluebird
+```
