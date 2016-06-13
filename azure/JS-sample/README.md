@@ -15,7 +15,7 @@ Replace the `[Your connection string]`
 
 Save and run:
 ```
-$ node test.js
+$ node server.js
 ```
 
 At last go to 
