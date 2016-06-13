@@ -22,6 +22,11 @@ $ npm install azure-iot-device-http
 $ npm install azure-iothub
 ```
 
+- **azure-iot-common**
+```
+$ npm install azure-iot-common
+```
+
 - **amqp10**
 ```
 $ npm install amqp10
