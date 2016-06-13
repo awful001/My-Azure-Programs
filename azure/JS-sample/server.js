@@ -38,7 +38,7 @@ var connectCallback = function (err) {
 		
 		client.on('message', function (msg) {
 			var data = msg.data;
-			data = data.slice(data.indexOf('{'), data.indexOf('}') + 1);
+			//data = data.slice(data.indexOf('{'), data.indexOf('}') + 1);
 			console.log(data);
 			eventEmitter.emit('socket', data + ' received');
 			client.complete(msg, function () {
